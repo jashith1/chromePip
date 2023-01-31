@@ -1,0 +1,23 @@
+{
+	"manifest_version": 3,
+	"name": "pip",
+	"version": "0.1",
+	"description": "free games detector",
+	"homepage_url": "https://github.com/bloppai/chromePip",
+
+	"permissions": ["storage"],
+
+	"icons": {
+		"48": "icons/icon.png",
+		"96": "icons/icon.png"
+	},
+
+	"action": {
+		"default_icon": "icons/icon.png",
+		"default_title": "pip"
+	},
+
+	"background": {
+		"service_worker": "freeGames.js"
+	}
+}
